@@ -23,6 +23,14 @@ function ArrowIcon() {
   );
 }
 
+function DownloadIcon() {
+  return (
+    <svg aria-hidden="true" viewBox="0 0 24 24">
+      <path d="M12 3v12M7 10l5 5 5-5M5 20h14" />
+    </svg>
+  );
+}
+
 export default function Home() {
   return (
     <main>
@@ -359,8 +367,8 @@ export default function Home() {
         <div className="section-heading photography-heading">
           <p className="eyebrow">Selected work / 03</p>
           <h2>Photography</h2>
-          <a className="button button-primary photography-link" href="/Xiayang_Lin_Photography_Portfolio.pdf" download>
-            Full photography portfolio <ArrowIcon />
+          <a className="photography-download" href="/Xiayang_Lin_Photography_Portfolio.pdf" download>
+            Full photography portfolio <DownloadIcon />
           </a>
         </div>
         <div className="photography-teaser">
