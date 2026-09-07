@@ -34,6 +34,7 @@ export default function Home() {
         <nav aria-label="Primary navigation">
           <a href="#work">Work</a>
           <a href="#videography">Videography</a>
+          <a href="/photography">Photography</a>
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -354,9 +355,35 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="section photography" id="photography">
+        <div className="section-heading">
+          <p className="eyebrow">Selected work / 03</p>
+          <h2>Photography</h2>
+          <p>
+            A compact selection of documentary and nature work. The full
+            photography portfolio is available as a PDF.
+          </p>
+        </div>
+        <div className="photography-teaser">
+          <figure className="teaser-wide"><img src="/media/featured/documentary-protest.webp" alt="A participant at a nighttime street demonstration" loading="lazy" /></figure>
+          <figure><img src="/media/featured/documentary-mosque.webp" alt="Historic domed architecture framed by trees" loading="lazy" /></figure>
+          <figure className="teaser-portrait"><img src="/media/featured/nature-reflection.webp" alt="Autumn trees reflected in rippling blue water" loading="lazy" /></figure>
+          <figure><img src="/media/featured/documentary-street.webp" alt="Documentary street scene" loading="lazy" /></figure>
+          <figure className="teaser-video">
+            <video autoPlay muted loop playsInline preload="metadata" aria-label="Snow falling through a winter landscape">
+              <source src="/media/featured/snow.mp4" type="video/mp4" />
+            </video>
+            <span>Winter study · 00:06</span>
+          </figure>
+        </div>
+        <a className="button button-primary photography-link" href="/Xiayang_Lin_Photography_Portfolio.pdf" download>
+          Download photography portfolio <ArrowIcon />
+        </a>
+      </section>
+
       <section className="section section-blue">
         <div className="section-heading inverse">
-          <p className="eyebrow">Selected work / 03</p>
+          <p className="eyebrow">Selected work / 04</p>
           <h2>News Video</h2>
           <p>
             Fast, accurate production across translation, visual selection,
