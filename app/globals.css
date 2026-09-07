@@ -318,7 +318,7 @@ nav a:hover, .text-link:hover {
 }
 
 .section {
-  padding: 8rem 7vw;
+  padding: 5.5rem 7vw;
 }
 
 .section-heading {
@@ -977,32 +977,23 @@ nav a:hover, .text-link:hover {
 }
 
 .photography-teaser {
-  display: grid;
-  grid-auto-rows: 190px;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0.65rem;
+  columns: 3 300px;
+  column-gap: 0.65rem;
 }
 
 .photography-teaser figure {
+  break-inside: avoid;
   margin: 0;
+  margin-bottom: 0.65rem;
   overflow: hidden;
   background: var(--deep-blue);
-}
-
-.photography-teaser .teaser-wide {
-  grid-column: span 2;
-}
-
-.photography-teaser .teaser-portrait {
-  grid-row: span 2;
 }
 
 .photography-teaser img,
 .photography-teaser video {
   display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
 }
 
 .photography-teaser img {
@@ -1013,25 +1004,10 @@ nav a:hover, .text-link:hover {
   transform: scale(1.02);
 }
 
-.photography-teaser .teaser-video {
-  position: relative;
-}
-
-.photography-teaser .teaser-video span {
-  position: absolute;
-  right: 0.75rem;
-  bottom: 0.65rem;
-  padding: 0.35rem 0.5rem;
-  background: rgba(5, 11, 23, 0.76);
-  color: white;
-  font-size: 0.68rem;
-  font-weight: 800;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-}
-
 .photography-link {
-  margin-top: 1.35rem;
+  align-self: end;
+  justify-self: start;
+  margin: 0;
 }
 
 .photography-page {
@@ -1472,7 +1448,7 @@ footer h2 {
   }
 
   .section {
-    padding: 5rem 1rem;
+    padding: 3.5rem 1rem;
   }
 
   .section-heading {
@@ -1576,12 +1552,7 @@ footer h2 {
   }
 
   .photography-teaser {
-    grid-auto-rows: 130px;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .photography-teaser .teaser-portrait {
-    grid-row: span 2;
+    columns: 2 140px;
   }
 
   .archive-intro {
