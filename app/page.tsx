@@ -291,7 +291,7 @@ export default function Home() {
       <section className="section documentary" id="videography">
         <div className="section-heading">
           <p className="eyebrow">Selected work / 02</p>
-          <h2>Documentary &amp; Photography</h2>
+          <h2>Documentary</h2>
         </div>
         <div className="documentary-layout">
           <article className="feature-card">
@@ -356,13 +356,12 @@ export default function Home() {
       </section>
 
       <section className="section photography" id="photography">
-        <div className="section-heading">
+        <div className="section-heading photography-heading">
           <p className="eyebrow">Selected work / 03</p>
           <h2>Photography</h2>
-          <p>
-            A compact selection of documentary and nature work. The full
-            photography portfolio is available as a PDF.
-          </p>
+          <a className="button button-primary photography-link" href="/Xiayang_Lin_Photography_Portfolio.pdf" download>
+            Full photography portfolio <ArrowIcon />
+          </a>
         </div>
         <div className="photography-teaser">
           <figure className="teaser-wide"><img src="/media/featured/documentary-protest.webp" alt="A participant at a nighttime street demonstration" loading="lazy" /></figure>
@@ -373,12 +372,8 @@ export default function Home() {
             <video autoPlay muted loop playsInline preload="metadata" aria-label="Snow falling through a winter landscape">
               <source src="/media/featured/snow.mp4" type="video/mp4" />
             </video>
-            <span>Winter study · 00:06</span>
           </figure>
         </div>
-        <a className="button button-primary photography-link" href="/Xiayang_Lin_Photography_Portfolio.pdf" download>
-          Download photography portfolio <ArrowIcon />
-        </a>
       </section>
 
       <section className="section section-blue">
