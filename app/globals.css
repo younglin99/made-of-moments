@@ -1010,6 +1010,22 @@ nav a:hover, .text-link:hover {
   margin: 0;
 }
 
+.photography-heading {
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.photography-heading h2 {
+  min-width: 0;
+  font-size: clamp(3rem, 5vw, 5.3rem);
+}
+
+.photography-heading .photography-link {
+  justify-self: end;
+  padding-right: 1.4rem;
+  padding-left: 1.4rem;
+  white-space: nowrap;
+}
+
 .photography-page {
   min-height: 100vh;
   background: #f7f9fc;
@@ -1338,6 +1354,12 @@ footer h2 {
 
   .section-heading > p:last-child {
     margin-top: 1.5rem;
+  }
+
+  .photography-heading .photography-link {
+    justify-self: start;
+    margin-top: 1.5rem;
+    white-space: normal;
   }
 
   .project-1,
