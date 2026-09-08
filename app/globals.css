@@ -895,7 +895,12 @@ nav a:hover, .text-link:hover {
 }
 
 .photography {
+  padding-top: 3rem;
   background: #f7f9fc;
+}
+
+.documentary {
+  padding-bottom: 2rem;
 }
 
 .photo-groups {
@@ -1501,6 +1506,14 @@ footer h2 {
 
   .section {
     padding: 3.5rem 1rem;
+  }
+
+  .documentary {
+    padding-bottom: 1.5rem;
+  }
+
+  .photography {
+    padding-top: 2.5rem;
   }
 
   .section-heading {
