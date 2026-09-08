@@ -977,14 +977,21 @@ nav a:hover, .text-link:hover {
 }
 
 .photography-teaser {
-  columns: 3 300px;
-  column-gap: 0.65rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+  align-items: start;
+}
+
+.teaser-stack {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 0.65rem;
 }
 
 .photography-teaser figure {
-  break-inside: avoid;
   margin: 0;
-  margin-bottom: 0.65rem;
   overflow: hidden;
   background: var(--deep-blue);
 }
@@ -1004,10 +1011,31 @@ nav a:hover, .text-link:hover {
   transform: scale(1.02);
 }
 
-.photography-link {
+.photography-download {
+  display: inline-flex;
+  gap: 0.65rem;
   align-self: end;
+  align-items: center;
   justify-self: start;
-  margin: 0;
+  border-bottom: 3px solid var(--red);
+  padding: 0 0 0.55rem;
+  color: var(--ink);
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.photography-download svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
 }
 
 .photography-heading {
@@ -1019,10 +1047,8 @@ nav a:hover, .text-link:hover {
   font-size: clamp(3rem, 5vw, 5.3rem);
 }
 
-.photography-heading .photography-link {
+.photography-heading .photography-download {
   justify-self: end;
-  padding-right: 1.4rem;
-  padding-left: 1.4rem;
   white-space: nowrap;
 }
 
@@ -1356,7 +1382,7 @@ footer h2 {
     margin-top: 1.5rem;
   }
 
-  .photography-heading .photography-link {
+  .photography-heading .photography-download {
     justify-self: start;
     margin-top: 1.5rem;
     white-space: normal;
@@ -1571,10 +1597,6 @@ footer h2 {
 
   .portfolio-item.portrait {
     grid-row: span 2;
-  }
-
-  .photography-teaser {
-    columns: 2 140px;
   }
 
   .archive-intro {
