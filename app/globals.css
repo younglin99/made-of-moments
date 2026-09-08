@@ -318,7 +318,7 @@ nav a:hover, .text-link:hover {
 }
 
 .section {
-  padding: 5.5rem 7vw;
+  padding: 3rem 7vw;
 }
 
 .section-heading {
@@ -895,12 +895,7 @@ nav a:hover, .text-link:hover {
 }
 
 .photography {
-  padding-top: 3rem;
-  background: #f7f9fc;
-}
-
-.documentary {
-  padding-bottom: 2rem;
+  background: var(--white);
 }
 
 .photo-groups {
@@ -1505,15 +1500,7 @@ footer h2 {
   }
 
   .section {
-    padding: 3.5rem 1rem;
-  }
-
-  .documentary {
-    padding-bottom: 1.5rem;
-  }
-
-  .photography {
-    padding-top: 2.5rem;
+    padding: 2.5rem 1rem;
   }
 
   .section-heading {
