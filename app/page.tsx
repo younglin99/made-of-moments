@@ -372,15 +372,19 @@ export default function Home() {
           </a>
         </div>
         <div className="photography-teaser">
-          <figure className="teaser-wide"><img src="/media/featured/documentary-protest.webp" alt="A participant at a nighttime street demonstration" loading="lazy" /></figure>
-          <figure><img src="/media/featured/documentary-mosque.webp" alt="Historic domed architecture framed by trees" loading="lazy" /></figure>
-          <figure className="teaser-portrait"><img src="/media/featured/nature-reflection.webp" alt="Autumn trees reflected in rippling blue water" loading="lazy" /></figure>
-          <figure><img src="/media/featured/documentary-street.webp" alt="Documentary street scene" loading="lazy" /></figure>
-          <figure className="teaser-video">
-            <video autoPlay muted loop playsInline preload="metadata" aria-label="Snow falling through a winter landscape">
-              <source src="/media/featured/snow.mp4" type="video/mp4" />
-            </video>
-          </figure>
+          <div className="teaser-stack">
+            <figure><img src="/media/featured/documentary-protest.webp" alt="A participant at a nighttime street demonstration" loading="lazy" /></figure>
+            <figure><img src="/media/featured/documentary-street.webp" alt="Documentary street scene" loading="lazy" /></figure>
+            <figure className="teaser-video">
+              <video autoPlay muted loop playsInline preload="metadata" aria-label="Snow falling through a winter landscape">
+                <source src="/media/featured/snow.mp4" type="video/mp4" />
+              </video>
+            </figure>
+          </div>
+          <div className="teaser-stack">
+            <figure><img src="/media/featured/documentary-mosque.webp" alt="Historic domed architecture framed by trees" loading="lazy" /></figure>
+            <figure><img src="/media/featured/nature-reflection.webp" alt="Autumn trees reflected in rippling blue water" loading="lazy" /></figure>
+          </div>
         </div>
       </section>
 
