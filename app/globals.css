@@ -978,9 +978,9 @@ nav a:hover, .text-link:hover {
 
 .photography-teaser {
   display: grid;
-  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.65rem;
-  align-items: start;
+  align-items: stretch;
 }
 
 .teaser-stack {
@@ -988,6 +988,10 @@ nav a:hover, .text-link:hover {
   min-width: 0;
   flex-direction: column;
   gap: 0.65rem;
+}
+
+.teaser-stack-landscape {
+  justify-content: space-between;
 }
 
 .photography-teaser figure {
