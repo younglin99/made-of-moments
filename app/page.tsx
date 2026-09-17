@@ -434,7 +434,9 @@ export default function Home() {
             target="_blank"
             rel="noreferrer"
           >
-            Read the Chinese original here (use browser translation if needed)
+            Read the Chinese original here
+            <br />
+            (use browser translation if needed)
           </a>
         </div>
       </section>
