@@ -1,14 +1,14 @@
 const newsProjects = [
   {
-    title: "English–Chinese News Video",
-    meta: "Cover Media · Remote / London · 2025",
+    title: "Englishâ€“Chinese News Video",
+    meta: "Cover Media Â· Remote / London Â· 2025",
     copy: "Translated, checked and published short news videos for Chinese-speaking audiences.",
-    index: "6–10",
+    index: "6â€“10",
     indexLabel: "videos per day",
   },
   {
     title: "Wochit Short-form Production",
-    meta: "Cover Media · Approx. 1 minute",
+    meta: "Cover Media Â· Approx. 1 minute",
     copy: "Selected library footage and matched visuals to supplied news copy for newly assembled stories.",
     index: "01:00",
     indexLabel: "typical runtime",
@@ -54,7 +54,7 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="hero-copy">
           <p className="eyebrow">
-            Football media · Video production · Editorial
+            Football media Â· Video production Â· Editorial
           </p>
           <h1>
             Made of
@@ -62,7 +62,7 @@ export default function Home() {
             <span>moments.</span>
           </h1>
           <p className="hero-intro">
-            I’m Xiayang Lin, a video editor and content producer interested in
+            Iâ€™m Xiayang Lin, a video editor and content producer interested in
             how sport becomes a story through images, sound and the moments
             around the game. My experience spans international football
             television, live production and short-form news video.
@@ -99,11 +99,11 @@ export default function Home() {
 
       <section className="ticker" aria-label="Areas of expertise">
         <div>
-          <span>Football content</span><i>◆</i>
-          <span>Video editing</span><i>◆</i>
-          <span>Live production</span><i>◆</i>
-          <span>International journalism</span><i>◆</i>
-          <span>English–Chinese content</span>
+          <span>Football content</span><i>â—†</i>
+          <span>Video editing</span><i>â—†</i>
+          <span>Live production</span><i>â—†</i>
+          <span>International journalism</span><i>â—†</i>
+          <span>Englishâ€“Chinese content</span>
         </div>
       </section>
 
@@ -120,7 +120,7 @@ export default function Home() {
         <article className="promo-series">
           <div className="promo-series-intro">
             <div>
-              <p className="project-meta">StarTimes · Bundesliga · 2025</p>
+              <p className="project-meta">StarTimes Â· Bundesliga Â· 2025</p>
               <h3>Der Klassiker: Two Seasons</h3>
             </div>
             <div>
@@ -157,9 +157,9 @@ export default function Home() {
               <figcaption>
                 <div>
                   <span className="season-index">01 / Spring</span>
-                  <strong>FC Bayern München vs Borussia Dortmund</strong>
+                  <strong>FC Bayern MÃ¼nchen vs Borussia Dortmund</strong>
                 </div>
-                <span>April 2025 · 00:30</span>
+                <span>April 2025 Â· 00:30</span>
               </figcaption>
             </figure>
 
@@ -180,9 +180,9 @@ export default function Home() {
               <figcaption>
                 <div>
                   <span className="season-index">02 / Autumn</span>
-                  <strong>FC Bayern München vs Borussia Dortmund</strong>
+                  <strong>FC Bayern MÃ¼nchen vs Borussia Dortmund</strong>
                 </div>
-                <span>October 2025 · 00:30</span>
+                <span>October 2025 Â· 00:30</span>
               </figcaption>
             </figure>
           </div>
@@ -220,8 +220,8 @@ export default function Home() {
               </figure>
             </div>
             <div className="project-body case-copy">
-              <p className="project-meta">02 · StarTimes · 2023–2025</p>
-              <h3>Football Moments — Weekly Studio Show</h3>
+              <p className="project-meta">02 Â· StarTimes Â· 2023â€“2025</p>
+              <h3>Football Moments â€” Weekly Studio Show</h3>
               <p>
                 Prepared research and programme materials, built on-screen
                 slides, assembled programme sequences and handled live playout
@@ -245,7 +245,7 @@ export default function Home() {
               <figcaption>Remote interview production</figcaption>
             </figure>
             <div className="project-body case-copy">
-              <p className="project-meta">03 · StarTimes · Selected assignments</p>
+              <p className="project-meta">03 Â· StarTimes Â· Selected assignments</p>
               <h3>Bundesliga Player Interviews</h3>
               <p>
                 Research and production support for remote interviews with
@@ -278,7 +278,7 @@ export default function Home() {
               </figure>
             </div>
             <div className="project-body case-copy">
-              <p className="project-meta">04 · StarTimes · Live broadcast</p>
+              <p className="project-meta">04 Â· StarTimes Â· Live broadcast</p>
               <h3>Football Broadcast Operations</h3>
               <p>
                 Worked in the control room on English-language football
@@ -314,12 +314,12 @@ export default function Home() {
                 src="/media/documentary/happy-accident-behind-the-scenes.jpg"
                 alt="A worn skateboard deck and detached truck during the making of Happy Accident"
               />
-              <span>Short documentary · 2022</span>
-              <div className="play-mark" aria-hidden="true">▶</div>
+              <span>Short documentary Â· 2022</span>
+              <div className="play-mark" aria-hidden="true">â–¶</div>
               <strong className="frame-caption">Behind the scenes</strong>
             </a>
             <div className="feature-copy">
-              <p className="project-meta">Producer · Director · Editor</p>
+              <p className="project-meta">Producer Â· Director Â· Editor</p>
               <h3>Happy Accident</h3>
               <p>
                 An independently produced documentary about skateboarding:
@@ -353,7 +353,7 @@ export default function Home() {
                 />
               </figure>
             </div>
-            <p className="project-meta">University basketball · 2019–2021</p>
+            <p className="project-meta">University basketball Â· 2019â€“2021</p>
             <h3>Team photography &amp; match documentation</h3>
             <p>
               Attended training and matches, produced photos and video, managed
@@ -423,12 +423,19 @@ export default function Home() {
           <h2>A journey recorded in Chinese</h2>
           <p>
             A 150,000-character travel diary based on an independent journey
-            through Russia, the Caucasus, Jordan, Syria and Uzbekistan—combining
+            through Russia, the Caucasus, Jordan, Syria and Uzbekistanâ€”combining
             personal narrative with observations of people, places and everyday
             life. My wider Chinese-language travel writing also includes
             Lebanon, Mongolia and earlier journeys in Europe.
           </p>
-          <span className="status-label">English excerpts in preparation</span>
+          <a
+            className="status-label"
+            href="https://mp.weixin.qq.com/s/guDrvVKN-UOOLfaol2GZmA"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Read in Chinese on WeChat
+          </a>
         </div>
       </section>
 
@@ -446,7 +453,7 @@ export default function Home() {
           </p>
           <p>
             I hold an MA in International Journalism from Cardiff University,
-            alongside bachelor’s degrees in Trade Economics and English
+            alongside bachelorâ€™s degrees in Trade Economics and English
             Translation. I am a native Chinese speaker, work professionally in
             English and am currently learning Dutch.
           </p>
@@ -463,13 +470,13 @@ export default function Home() {
 
       <footer id="contact">
         <p className="eyebrow">Contact / 05</p>
-        <h2>Let’s make the next story worth watching.</h2>
+        <h2>Letâ€™s make the next story worth watching.</h2>
         <div className="footer-links">
           <a href="mailto:younglin99@outlook.com">Email me <ArrowIcon /></a>
           <a href="/Xiayang_Lin_Sports_Media_CV.pdf" download>Download CV <ArrowIcon /></a>
         </div>
         <div className="footer-bottom">
-          <span>Xiayang Lin · Portfolio 2026</span>
+          <span>Xiayang Lin Â· Portfolio 2026</span>
           <span>Leiden area, Netherlands</span>
         </div>
       </footer>
