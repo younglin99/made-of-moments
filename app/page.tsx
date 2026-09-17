@@ -434,7 +434,7 @@ export default function Home() {
             target="_blank"
             rel="noreferrer"
           >
-            Read in Chinese on WeChat
+            Read in Chinese on WeChat (there&apos;s a translation buttonâ€”don&apos;t worry)
           </a>
         </div>
       </section>
